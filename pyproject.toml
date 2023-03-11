@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nonebot-plugin-dialogue"
+version = "0.1.0"
+description = "垮时空与超管对话"
+authors = ["mute. <mute23@qq.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nonebot_plugin_dialogue"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
