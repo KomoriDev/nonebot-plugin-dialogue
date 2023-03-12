@@ -45,26 +45,17 @@ _✨ NoneBot 反馈插件 ✨_
     pip install nonebot-plugin-dialogue
 </details>
 <details>
-<summary>pdm</summary>
-
-    pdm add nonebot-plugin-dialogue
-</details>
-<details>
 <summary>poetry</summary>
 
     poetry add nonebot-plugin-dialogue
 </details>
-<details>
-<summary>conda</summary>
 
-    conda install nonebot-plugin-dialogue
 </details>
 
-打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
+下载后，打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
     plugins = ["nonebot_plugin_dialogue"]
 
-</details>
 
 ## ⚙️ 配置
 
